@@ -8,7 +8,7 @@ Wowza Streaming Engine 4.0.0 or later is required.
 This Media Reader can be added to new or existing on-demand (VOD) applications. It looks for the requested piece of content in an on-demand application's content storage directory first, and if it can't find it, then tries to retrieve the content from a remote Media Cache source. This is a useful function when you need to stream locally stored content alongside remote content. For example, you could use this module if you have popular content that you need to store locally or if you have content that was just recorded and you need to make it available before transferring it to the remote server.
 
 ## More resources
-[Wowza Streaming Engine Server-Side API Reference](https://www.wowza.com/resources/WowzaStreamingEngine_ServerSideAPI.pdf)
+[Wowza Streaming Engine Server-Side API Reference](https://www.wowza.com/resources/serverapi/)
 
 [How to extend Wowza Streaming Engine using the Wowza IDE](https://www.wowza.com/forums/content.php?759-How-to-extend-Wowza-Streaming-Engine-using-the-Wowza-IDE)
 
@@ -23,5 +23,3 @@ To use the compiled version of this module, see [Media Cache implementation that
 
 ## License
 This code is distributed under the [Wowza Public License](https://github.com/WowzaMediaSystems/wse-plugin-mediacachelocalcontent/blob/master/LICENSE.txt).
-
-![alt tag](http://wowzalogs.com/stats/githubimage.php?plugin=wse-plugin-mediacachelocalcontent)
